@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansRegular.eot');
+  src: url('fonts/PTSansRegular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/PTSansRegular.woof') format('woff'),
+       url('fonts/PTSansRegular.ttf') format('truetype'),
+       url('fonts/PTSansRegular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansItalic.eot');
+  src: url('fonts/PTSansItalic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/PTSansItalic.woof') format('woff'),
+       url('fonts/PTSansItalic.ttf') format('truetype'),
+       url('fonts/PTSansItalic.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansBold.eot');
+  src: url('fonts/PTSansBold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/PTSansBold.woof') format('woff'),
+       url('fonts/PTSansBold.ttf') format('truetype'),
+       url('fonts/PTSansBold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansBoldItalic.eot');
+  src: url('fonts/PTSansBoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('fonts/PTSansBoldItalic.woof') format('woff'),
+       url('fonts/PTSansBoldItalic.ttf') format('truetype'),
+       url('fonts/PTSansBoldItalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+} 

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'PTSans';
+  src: url('PTSansRegular.eot');
+  src: url('PTSansRegular.eot?#iefix') format('embedded-opentype'),
+       url('PTSansRegular.woof') format('woff'),
+       url('PTSansRegular.ttf') format('truetype'),
+       url('PTSansRegular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('PTSansItalic.eot');
+  src: url('PTSansItalic.eot?#iefix') format('embedded-opentype'),
+       url('PTSansItalic.woof') format('woff'),
+       url('PTSansItalic.ttf') format('truetype'),
+       url('PTSansItalic.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('PTSansBold.eot');
+  src: url('PTSansBold.eot?#iefix') format('embedded-opentype'),
+       url('PTSansBold.woof') format('woff'),
+       url('PTSansBold.ttf') format('truetype'),
+       url('PTSansBold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('PTSansBoldItalic.eot');
+  src: url('PTSansBoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('PTSansBoldItalic.woof') format('woff'),
+       url('PTSansBoldItalic.ttf') format('truetype'),
+       url('PTSansBoldItalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+} 
