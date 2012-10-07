@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>The Hat Gallery</title>
+<link href="styles.css" rel="stylesheet">
+<style>
+
+header {
+	position: relative;
+	padding: 20px 0 0 10px;
+	margin-top: 20px;
+}
+
+.badge {
+	position: absolute;
+	top: -20px;
+	left: -90px;	
+	z-index: -1;
+}
+
+header nav {
+  position: absolute;
+  right: 0;
+  top: 45px;		
+}
+
+.gallery figure {
+	display: inline-block;
+	width: 300px;
+	height: 210px;
+	margin: 15px;
+	position: relative;
+}
+
+.gallery figcaption {
+	position: absolute;
+	top: 15%;
+	bottom: 15%;
+	left: 0;
+	right: 0;
+	background-color: rgb(153,153,153);
+	background-color: rgba(153,153,153,.9);	
+	padding: 20px;
+	font-family: Titillium, Arial, sans-serif;
+	font-size: .9em;
+	font-weight: 400;
+	color: white;
+	opacity: 0;
+	-webkit-transition: opacity .75s ease-out;
+	-moz-transition: opacity .75s ease-out;
+	-o-transition: opacity .75s ease-out;
+	transition: opacity .75s ease-out;
+}
+figure:hover figcaption {
+	opacity: 1;	
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	background-color: black;
+	color: white;	
+}
+</style>
+<!--[if lt IE 9]>
+<script src="html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<header>
+<h1>The Hat Gallery <img src="images/hat.png" width="130" height="140" alt="The Hat Gallery" class="badge"></h1>
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">More Hats</a></li>
+		<li><a href="#">About Us</a></li>
+		<li><a href="#">Visit Us</a></li>
+	</ul>
+</nav>
+</header>
+<div class="gallery">
+<figure>
+<img src="images/file00079963469.jpg" width="300" height="210" alt="Panama Hat">
+<figcaption><strong>Nam libero tempore.</strong> Soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</figcaption>
+</figure>
+<figure>
+<img src="images/file000308999292.jpg" width="300" height="210" alt="Bonnet">
+<figcaption><strong>Nam libero tempore.</strong> Soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</figcaption>
+</figure>
+<figure>
+<img src="images/file000330568599.jpg" width="300" height="210" alt="Pink hat">
+<figcaption><strong>Nam libero tempore.</strong> Soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</figcaption>
+</figure>
+<figure>
+<img src="images/file000550955311.jpg" width="300" height="210" alt="Variety">
+<figcaption><strong>Nam libero tempore.</strong> Soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</figcaption>
+</figure>
+<figure>
+<img src="images/file0001117960982.jpg" width="300" height="210" alt="Hat">
+<figcaption><strong>Nam libero tempore.</strong> Soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</figcaption>
+</figure>
+<figure>
+<img src="images/file0001425538258.jpg" width="300" height="210" alt="Another bonnet">
+<figcaption><strong>Nam libero tempore.</strong> Soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</figcaption>
+</figure>
+<figure>
+<img src="images/file00030009680.jpg" width="300" height="210" alt="Dude with hat">
+<figcaption><strong>Nam libero tempore.</strong> Soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</figcaption>
+</figure>
+<figure>
+<img src="images/file0001728857809.jpg" width="300" height="210" alt="Cool hat">
+<figcaption><strong>Nam libero tempore.</strong> Soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</figcaption>
+</figure>
+<figure>
+<img src="images/file0001757413591.jpg" width="300" height="210" alt="Top Hats">
+<figcaption><strong>Nam libero tempore.</strong> Soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</figcaption>
+</figure>
+</div>
+<footer>
+<div class="copyright">
+<p>Copyright 2013, The Hat Gallery</p>
+</div>
+</footer>
+</body>
+</html>
