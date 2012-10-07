@@ -1,0 +1,30 @@
+.sidebar, .navWrapper, .footerNav {
+ display: none;
+}
+.banner, .mainWrapper, .footer, .main {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  height: auto;
+  text-align: center;
+  border-bottom: 2pt solid #000;
+  border-top: 2pt solid #000;
+  padding: 10pt 0;
+  margin-bottom: 15pt;
+}
+* {
+  color: #000000 !important;
+}
+.footerMain {
+  margin-top: 15pt;
+  border-top: 1pt solid #000;
+  padding-top: 5pt;
+}
+.footerMain p {
+  font-size: 9pt !important;
+}
+a:after {
+  content: " (" attr(href) ") ";
+}

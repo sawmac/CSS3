@@ -1,0 +1,223 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+html {
+	background-color: #6F3BA4;
+}
+body {
+	background: url(../images/bg_about.jpg) no-repeat fixed left top;
+}
+.navWrapper {
+	border-top: 1px dashed #6F3BA4;
+	border-bottom: 1px dashed #6F3BA4;
+	overflow: hidden;
+}
+
+.banner {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/about_title.png) no-repeat right bottom;
+	height: 115px;
+}
+.banner .logo {
+	background: #6F3BA4;
+}
+
+.mainWrapper {
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.main {
+	float: left;
+	width: 630px;
+	padding-top: 30px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.footerWrapper {
+	background: #6F3BA4;
+	clear: both;
+}
+.main p {
+	font-size: 14px;
+	line-height: 150%;
+	margin-bottom: 10px;
+}
+
+.main ol, .main ul {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.main li {
+  font-size: 14px;
+}
+
+.main h2 {
+	color: #333;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.main h1 {
+	color: #6F3BA4;
+	font: 30px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border-bottom: 1px solid #FFF;
+	margin-bottom: 20px;
+}
+.sidebar {
+	
+	float: right;
+	width: 220px;
+	margin-top: 60px;
+}
+
+.sidebar p {
+	margin-bottom:10px;
+	color: #512C76;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.sidebar p:first-line {
+  font-weight: bold;
+}
+.footer {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	padding: 20px 0;
+}
+.footerMain {
+	margin-left: 200px;
+}
+.footerMain p {
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #FFF;
+}
+.mainNav li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+}
+.mainNav {
+	padding: 0 0 0 225px;
+	width: 900px;
+	margin: 0 auto;
+}
+.mainNav a {
+	display: block;
+	padding: 5px 20px;
+	text-decoration: none;
+	color: #6F3BA4;
+	font: 14px Tahoma, Geneva, sans-serif;
+}
+
+.home a.homeLink,
+.news a.newsLink,
+.about  a.aboutLink,
+.forum a.forumLink {
+	color: #999;	
+background-image: url(../images/link_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 10px 12px;
+  padding-left: 26px;
+
+}
+
+.home .footerNav a.homeLink,
+.news .footerNav a.newsLink,
+.about .footerNav a.aboutLink,
+.forum .footerNav a.forumLink {
+	
+background-image: url(../images/link_arrow_rt.png);
+background-position: 5px 6px;
+padding-left: 20px;
+
+}
+
+
+.mainNav a:hover {
+  background-color: #F5E281;
+}
+
+.sidenav {
+ background: url(../images/screen.png);
+	margin: 0 0 30px 0;
+	padding: 0px;
+	list-style: none;
+	border-bottom: 1px dotted #FFF;
+}
+.sidenav a {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: block;
+	border-top: 1px dotted #FFF;
+	color: #900;
+}
+.sidenav a:hover {
+	background-color: #F1CD1D;
+}
+
+.footerNav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+ border-top: 1px solid #856FA4;
+}
+.footerNav a {
+	font: 13px Tahoma, Geneva, sans-serif;
+	color: #CDAAFF;
+	text-decoration: none;
+	display: block;
+	padding: 3px 10px;
+	border-bottom: 1px solid #856FA4;
+}
+
+.footerNav {
+	float: left;
+	width: 150px;
+}
+
+.main a {
+	text-decoration: none;
+	color: #6F3BA4;
+	font: 14px Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+}
+.main ul {
+	padding-top: 10px;
+}
