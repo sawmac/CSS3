@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS3 Transforms, Transitions and Animations</title>
+<link href="styles.css" rel="stylesheet">
+<style>
+
+nav a {
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;	
+}
+
+nav a:hover {
+	background-color: red;
+	-webkit-transform:scale(1.2);	
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform:  scale(1.2);
+	transform: scale(1.2);
+}
+
+@-webkit-keyframes 'logo' {
+	from {
+		left: 120%;
+		-webkit-transform: rotate(0) scale(.75);
+	}
+	50% {
+		-webkit-transform: rotate(-720deg) scale(.75);
+		left: 0;
+	}
+	to {
+		-webkit-transform: rotate(0) scale(1);	
+	}
+}
+@-moz-keyframes logo {
+	0% {
+		-moz-transform: rotate(0) scale(.75);
+	}
+	50% {
+		-moz-transform: rotate(-720deg) scale(.75);
+	}
+	100% {
+		-moz-transform: rotate(0) scale(1);	
+	}
+}
+@-o-keyframes logo {
+	from {
+		left: 120%;
+		-o-transform: rotate(0) scale(.75);
+	}
+	50% {
+		-o-transform: rotate(-720deg) scale(.75);
+		left: 0;
+	}
+	to {
+		-o-transform: rotate(0) scale(1);	
+	}
+}
+
+@keyframes logo {
+	0% {
+		left: 120%;
+		transform: rotate(0) scale(.75);
+	}
+	50% {
+		transform: rotate(-720deg) scale(.75);
+		left: 0;
+	}
+	100% {
+		transform: rotate(0) scale(1);	
+	}
+}
+
+.logo {
+	-webkit-animation: logo 3s  linear;	
+	-moz-animation: logo 3s;
+	-o-animation: logo 3s;
+	animation: logo 3s;
+}
+</style>
+<!--[if lt IE 9]>
+<script src="html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+<header>
+<div class="container">
+<img src="logo.png" class="logo" width="150" height="150" alt="CSS3: The Missing Manual">
+<h1>CSS3 Transforms, Transitions and Animations</h1>
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Gallery</a></li>
+		<li><a href="#">Story</a></li>
+		<li><a href="#">About Us</a></li>
+	</ul>
+</nav>
+</div>
+</header>
+</body>
+</html>
