@@ -28,13 +28,13 @@ ul {
 body {
 	width: 760px;
 	margin: 0 auto;	
-	background-color: rgb(0,51,102)
+	background-color: rgb(0,51,102);
+	color: rgb(255,255,255);
 }
 
 h1 {
 	font-size: 2em;
 	font-family: Tahoma, Geneva, sans-serif;
-	color: rgb(255,255,255);
 	font-weight: normal;
 	border-bottom: dotted 2px rgba(255,255,255,.5);
 	padding-bottom: 4px;	
