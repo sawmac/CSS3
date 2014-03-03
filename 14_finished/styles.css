@@ -184,7 +184,8 @@ img.right {
 	padding-top: 10px;
   }
   .columnWrapper {
-	 width: auto;	  
+	 width: auto;
+	 float: none;	  
   }
   .main {
 	border-right: none;  
