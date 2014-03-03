@@ -59,23 +59,23 @@ header h1 {
 	padding-left: 10px;
 }
 
-header nav {
+nav {
 	background-color: rgb(25,25,25);
 	border: 1px solid rgba(255,255,255,.5);	
 	border-left: none;
 	border-right: none;
 }
-header nav ul {
+nav ul {
 	padding: 0;
 	margin: 0;	
 }
-header nav li {
+nav li {
 	float: left;
 	padding: 0;
 	margin: 0;
 	list-style: none;	
 }
-header nav a {
+nav a {
 	float: left;
 	font-size: .8em;	
 	color: white;
@@ -88,10 +88,10 @@ header nav a {
 	-o-transition: all .5s;
 	transition: all .5s;
 }
-header nav li:last-of-type a {
+nav li:last-of-type a {
 	border-right: none;	
 }
-header nav a:hover {
+nav a:hover {
 	background-color: rgb(93,43,78);
 }
 aside h2 {
