@@ -5,16 +5,16 @@ html {
 body {
   width: 80%;
   padding: 20px;
-  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
   margin: 0 auto;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
   background-color: #E1EDEB;
 }
 h1 {
+  font-family: 'Gravitas One', 'Arial Black', serif;
+  font-weight: normal;
 	color: #666666;
 	font-size: 3em;
-	font-family: 'Gravitas One', 'Arial Black', serif;
-	font-weight: normal;
-	margin: 0;
+  margin: 0;
 }
 
 p {
@@ -22,7 +22,7 @@ p {
 	color: #616161;
 	line-height: 150%;
 	margin-top: 10px;
-    margin-left: 60px;
+  margin-left: 60px;
 }
 h2 {
   color: #B1967C;
