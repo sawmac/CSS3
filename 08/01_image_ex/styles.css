@@ -36,12 +36,10 @@ body {
 .content {
 	margin: 15px;
 	border: 1px dashed #999;
-	border-right: none;
 	border-bottom: none;
 }
 h1 {
 	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
-	margin-bottom: 10px;
 	border-bottom: 1px dashed #999;
 	padding: 5px 0 5px 8px;
 	color: #14556b;
